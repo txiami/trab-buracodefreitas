@@ -1,4 +1,49 @@
 *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    background-color: aqua;
+header,footer{
+    background-color: #13ADC8;
+    color: white;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+footer{
+    display: flexbox;
+    padding: 1.5rem 3rem;
+    margin-top: auto;
+    
+}
+footer>p{
+    margin: auto 0;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem ;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    display: flex;
 }
