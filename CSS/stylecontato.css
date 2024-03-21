@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+    background-color: #13ADC8;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+footer {
+    display: flexbox;
+    padding: 1.5rem 3rem;
+    margin-top: auto;
+
+}
+
+footer>p {
+    margin: auto 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: #13ADC8;
+    margin: 20px 550px 0px 0px;
+}
+
+hr {
+    margin: 0px 400px 0px 400px;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 800px;
+    margin: 10px 400px 0px 400px;
+}
+
+fieldset label {
+    display: inline;
+    padding-left: 20px;
+
+}
+
+fieldset p {
+    padding-top: 15px;
+}
+
+fieldset input {
+    width: 350px;
+    padding: 5px 0px 5px 5px;
+    margin: 10px 0px 0px 20px;
+}
+
+.mens input {
+    width: 729px;
+    padding-bottom: 200px;
+}
+
+button {
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: #0BBF1D;
+    color: white;
+    border-color: #08A518;
+}
