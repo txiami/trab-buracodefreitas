@@ -1,4 +1,36 @@
 *{
+
+
+    padding : 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.container{
+    
+    border-radius: 1px;
+    border-width: 1px;
+
+    background-color: #127CE7;
+    background-image: img
+}
+
+.denuncie{
+
+    background-color: #004993;
+    text-align: center;
+
+}
+
+.botaoDenuncie{
+
+
+    background-color: #004993;
+}
+
+
+
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,3 +59,4 @@ a{
 .logo{
     display: flex;
 }
+
