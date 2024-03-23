@@ -1,4 +1,8 @@
 *{
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fadeff74f02f07ff6f9ddbc18cb19f9ac115051
 
     padding : 0;
     box-sizing: border-box;
@@ -29,3 +33,36 @@
 }
 
 
+<<<<<<< HEAD
+=======
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #13ADC8;
+    color: white;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem ;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+a{
+    display: flex;
+    
+}
+.logo{
+    display: flex;
+}
+
+>>>>>>> 2fadeff74f02f07ff6f9ddbc18cb19f9ac115051
