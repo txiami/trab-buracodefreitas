@@ -11,17 +11,21 @@
 <body>
     <header>
         <nav>
+           <!-- <img class="cam" src="camera.png" alt="camera">-->
             <div class="logo">
                 <p>Buraco de Freitas</p>
             </div>
             <ul>
                 <li>
+                   <!-- <img src="casa.png" alt="casa">-->
                     <a href="index.html">Home</a>
                 </li>
                 <li>
+                    <!--<img src="megaphone.png" alt="megaphone">-->
                     <a href="denuncia.html">Denunciar</a>
                 </li>
                 <li>
+                   <!-- <img src="Telefone.png" alt="telefone">-->
                     <a href="contato.html">Contato</a>
                 </li>
             </ul>
