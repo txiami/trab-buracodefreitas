@@ -61,45 +61,83 @@
     z-index: 1;
 }*/
 
-.last{
-    color:#127CE7 ;
-}
-.last-registers{
+.last-registers {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.cards{
+
+.cards {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap:20px;
-    width: 1024px;
+    gap: 20px;
+    width: 65%;
+    margin-top: 30px;
 }
-.card{
+
+.card {
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 6px;
     box-shadow: 0 0.1rem 0.5rem #ccc
 }
-table{
-    width: 100%;
-    border-collapse: collapse;
-    
+
+hr {
+    margin: 0 20%;
+    border: 1px solid #DADADA;
 }
-td,th{
-    border: 1px solid;
+
+.card hr {
+    margin: 7px 10%;
+}
+
+table,
+td,
+th {
+    border-color: #DBDBDB;
+    border-radius: 8px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0px 0px 8px 1px #00000040;
+}
+
+td,
+th {
     text-align: left;
     padding: 8px;
+    border-color: #DBDBDB;
+    border-radius: 8px;
+
 }
-th div{
+
+th div {
     flex-direction: row;
-    display:flex;
+    display: flex;
 }
 
 h2 {
     text-align: center;
     color: #127CE7;
-    margin: 20px 455px 0px 0px;
-  }
+    margin: 20px 600px 0px 0px;
+    font-size: 30px;
+}
+
+.reporte {
+    color: #127CE7;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.Rua {
+    color: #127CE7;
+}
+
+.card p {
+    text-align: center;
+}
