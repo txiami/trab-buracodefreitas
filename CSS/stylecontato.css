@@ -31,12 +31,12 @@ footer>p {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1rem 3rem;
 }
 
 li{
-   margin-left: -100px;
+   margin-left: -120px;
 }
 
 nav a{
@@ -51,31 +51,48 @@ ul {
 }
 
 a {
-    display: flex;
     text-decoration: none;
     color: white;
+    position: relative;
+    left: 100px;
 }
 
-.logo p{
-    margin-left: 200px;
+.logo {
+    align-self: center;
+    position: relative;
+    right: 110px;
+    top: 2px;
 }
 
-/* .cam{ 
- margin-left: 190px;
-}
+
 img{
-    margin-right: 50px;
-} */
+  position: relative; 
+    top: 5px;
+    left: 100px;
+    height: 23px;
+    width: 23px;
+} 
+
+.cam{ 
+    height: 30px;
+    width: 30px;
+    align-self: center;
+
+    left: 90px;
+    top: 1px;
+  }
+
 
 h1 {
     text-align: center;
     color: #127CE7;
-    margin: 20px 520px 0px 0px;
+    margin: 20px 570px 0px 0px;
     
 }
 
 hr {
     margin: 0px 240px 0 240px;
+    border: 1px solid #DADADA
 }
 
 fieldset {
@@ -121,6 +138,7 @@ button {
     border-radius: 35px;
     padding: 10px 30px 10px 30px;
     background-color: #2E8B02;
+    border-color: #206401;
     color: white;
     margin: auto;
     margin-top: 40px;
