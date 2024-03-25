@@ -1,0 +1,50 @@
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inter;
+}
+
+header,
+.rodape {
+  background: #127CE7;
+  color: #fff;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}
+
+header p {
+  position: relative;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+
+}
+
+.rodape {
+  padding: 3vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-top: 75px;
+}
+
+.nomerodape {
+  align-items: center;
+  justify-content: center;
+}
