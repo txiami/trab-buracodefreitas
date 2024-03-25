@@ -4,19 +4,33 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+  font-family: inter;
 }
-
+img{
+  width: 24px;
+  height: 24px;
+}
 header {
-background:#127CE7;
-color: #fff;
-display: flex;
-justify-content: space-around;
-align-items: center;
-height: 8vh ;
+  background:#127CE7;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh ;
+  }
+  header p {
+    position: relative;
+  text-align: center;
+  vertical-align: middle;
+  }
+a{
+  text-decoration: none;
+  color: white;
+  padding:4px;
+
 }
 
-.rodape,
+  .rodape,
 .textoRodape
 {
   background:#127CE7;
@@ -25,10 +39,22 @@ height: 8vh ;
   justify-content: center;
   align-items: center;
   height: 13vh ;
-  position: absolute;
+
+  margin: 0 auto;
   width: 100%;
   
  
 }
+  /* .rodape {
+    background-color: #127CE7;
+    position: relative; 
+    width: 100%;
+    bottom: 0;
+    
+  }
+  .nomerodape{
+    align-items: center;
+    justify-content: center;
+  } */
 
 
