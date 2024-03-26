@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { 
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+
+}
+
+header,
+.rodape {
+  background: #127CE7;
+  color: #fff;
+}
+
+header img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+header p {
+  position: relative;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+
+}
+
+.rodape {
+  padding: 3vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-top: 75px;
+  position: relative;
+  bottom: 0;
+}
+
+.nomerodape {
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.rodape-contato,
+.rodape-denuncia{
+
+  position: fixed;
+  bottom: 0;
+  padding: 3vh;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-top: 75px;
+  background: #127CE7;
+  color: #fff;
+
+}
